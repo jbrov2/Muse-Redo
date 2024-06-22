@@ -98,7 +98,7 @@ function Navbar() {
                 Contact
               </a>
             </li>
-            <li>
+            <li className="mt-12">
               <a href="" className="text-3xl">
                 Sign Up
               </a>
