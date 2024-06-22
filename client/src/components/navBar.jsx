@@ -80,11 +80,11 @@ function Navbar() {
         } lg:hidden`}
       >
         <div className="container mx-auto flex flex-col items-center justify-center h-full space-y-8 text-white">
-          <a href="#" onClick={handleNavBar}>
+          {/* <a href="#" onClick={handleNavBar}>
             <h3 className="h3 hover:scale-125 transition-all duration-500 lowercase">
               Muse
             </h3>
-          </a>
+          </a> */}
           <ul className="flex flex-col items-center gap-8 uppercase">
             <li className="flex justify-center">
               <a href="#" onClick={handleNavBar}>
