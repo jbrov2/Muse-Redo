@@ -1,4 +1,5 @@
 import Hero from "../components/HeroSection";
+import Services from "../components/Services";
 import Navbar from "../components/navBar";
 
 function Home() {
@@ -9,6 +10,8 @@ function Home() {
         <Navbar />
         {/**Hero Section */}
         <Hero />
+        {/*Services Section */}
+        <Services />
         {/*Temp Div */}
         <div className="h-[3000px]"></div>
       </div>
