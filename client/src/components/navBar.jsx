@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   //FIX THE BUG
-  //maybe a secibd use effect
+  //disable scrolling when the side menu is open
   useEffect(() => {
     function handleResize() {
       const isBigScreen = window.innerWidth >= 1024;
@@ -75,7 +75,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 left-0 w-full h-[100vh] bg-primary transition-transform duration-300 transform ${
+        className={`fixed top-0 left-0 w-full h-[100vh] bg-primary transition-transform duration-300 z-50 ${
           toggleButton ? "translate-x-0" : "-translate-x-full"
         } lg:hidden`}
       >
