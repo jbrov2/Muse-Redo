@@ -1,6 +1,7 @@
-import Hero from "../components/HeroSection";
-import Services from "../components/Services";
+import Hero from "../components/landing_page/HeroSection";
 import Navbar from "../components/navBar";
+import Services from "../components/landing_page/Services";
+import AboutUs from "../components/landing_page/AboutUs";
 
 function Home() {
   return (
@@ -10,6 +11,8 @@ function Home() {
         <Navbar />
         {/**Hero Section */}
         <Hero />
+        {/*About Us */}
+        <AboutUs />
         {/*Services Section */}
         <Services />
         {/*Temp Div */}
