@@ -29,7 +29,9 @@ h1,h2,h3,h3,h4.h6{
 .h2{
   @apply text-[50px] leading-tight;
 }
-
+p{
+  @apply font-secondary
+}
 .h3{
   @apply text-[25px];
 }
