@@ -57,7 +57,7 @@ function Services() {
                 </h3>
                 <p className="font-light leading-normal max-w-[400px] text-primary">
                   The ability to find artists and the songs you love on
-                  <span> SoundCloud</span>.
+                  SoundCloud.
                 </p>
               </div>
             </div>
