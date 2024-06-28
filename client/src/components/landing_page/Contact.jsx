@@ -4,7 +4,7 @@ function Contact() {
       <section className="contact my-[80px] xl:mt-[200px]">
         <div className="max-w-[1466px] mb-8 mx-4 xl:mx-auto px-6 xl:px-0 h-[368] items-center">
           <div className="container mx-auto mb-[400px] xl:px-0 ">
-            <div className="flex mb-16 flex-col text-left gap-8">
+            <div className="flex mb-8 flex-col text-left ">
               <h2 className="contact_header h2 mb-8 text-secondary text-left">
                 Contact
               </h2>{" "}
@@ -46,7 +46,7 @@ function Contact() {
                   placeholder="Enter your comments..."
                 />
                 <input
-                  className="btn bg-accent mt-16 mb-4 hover:cursor-pointer hover:scale-105 transition-all duration-300"
+                  className="btn bg-accent w-80 flex mt-16 mb-4 hover:cursor-pointer hover:scale-105 transition-all duration-300"
                   type="button"
                   value="Submit"
                 />

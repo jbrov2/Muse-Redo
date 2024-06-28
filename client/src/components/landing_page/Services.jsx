@@ -6,11 +6,9 @@ function Services() {
       <section className="services  relative">
         <div className=" max-w-[1466px] mb-8 mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start">
           <div className="container mx-auto">
-            <div className="services_top flex flex-col  xl:my-[60px]">
-              <h2 className="h2  mb-4 xl:mb-0 text-left">
-                Muse&apos;s services
-              </h2>
-              <p className="p  mb-8 xl:text-left max-w-2xl xl:max-w-none">
+            <div className="services_top flex flex-col gap-8  xl:my-[60px]">
+              <h2 className="h2  xl:mb-0 text-left">Muse&apos;s services</h2>
+              <p className="p xl:text-left max-w-2xl xl:max-w-none">
                 Muse is offering the ability for users to merge their Spotify
                 and Soundcloud likes, and playlists. Along with a visually
                 appealing UI.
