@@ -70,19 +70,20 @@ function Navbar() {
           </nav>
           {/* Sign Up button */}
           {screenBig && (
+            <button className="btn btn-primary w- h40 mr-2 hover:scale-105 transition-all duration-500 uppercase">
+              Login
+              <RiLoginCircleFill className="ml-2" />
+            </button>
+          )
+          }
+          {screenBig && (
             <button className="btn btn-primary hover:scale-105 transition-all duration-500 uppercase">
               Sign Up
               <RiUserAddFill className="ml-2" />
             </button>
           )
           }
-          {screenBig && (
-            <button className="btn btn-primary hover:scale-105 transition-all duration-500 uppercase">
-              Login
-              <RiLoginCircleFill className="ml-2" />
-            </button>
-          )
-          }
+
         </div>
       </header>
 
