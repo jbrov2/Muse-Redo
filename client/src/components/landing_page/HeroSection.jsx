@@ -45,7 +45,7 @@ function Hero() {
         <div className="container  mx-auto h-full flex items-center justify-center xl:justify-start relative z-20">
           <div className="hero_text w-full maw-w-[567] flex flex-col items-center xl:items-start text-center xl:text-left relative z-30">
             <h1
-              className="header_title h1 mb-8 hover:text-accent cursor-pointer transition-all duration-500"
+              className="header_title h1 mb-8 hover:text-accent  hover:bg-primary hover:p-2 cursor-pointer transition-all duration-500"
               onMouseEnter={museHovering}
               onMouseLeave={museNotHovering}
             >
@@ -54,7 +54,7 @@ function Hero() {
             <p className="mb-8">
               The bridge between{" "}
               <span
-                className="spotify hover:text-[#1DB954] transition-all duration-500 cursor-pointer"
+                className="spotify hover:text-[#1DB954] hover:bg-primary hover:p-2 transition-all duration-500 cursor-pointer"
                 onMouseEnter={spotifyHovering}
                 onMouseLeave={spotifyNotHovering}
               >
@@ -62,7 +62,7 @@ function Hero() {
               </span>{" "}
               and{" "}
               <span
-                className="soundcloud hover:text-[#F26F23] transition-all duration-500 cursor-pointer"
+                className="soundcloud hover:text-[#F26F23] hover:bg-primary hover:p-2 transition-all duration-500 cursor-pointer"
                 onMouseEnter={soundCloudHovering}
                 onMouseLeave={soundCloudNotHovering}
               >
