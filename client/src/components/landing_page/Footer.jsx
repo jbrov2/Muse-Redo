@@ -55,11 +55,11 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p className="text-center text-lg py-10 xl:border-t mt-8 xl:mt-0">
+       
+      </div><p className="text-center text-lg py-10 xl:border-t mt-8 xl:mt-0">
           Copyright &copy; muse 2024. All rights reserved.
         </p>
-      </div>
-    </footer>
+    </footer> 
   );
 }
 
