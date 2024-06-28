@@ -4,11 +4,18 @@ import {
   RiMenu4Fill,
   RiUserAddFill,
 } from "@remixicon/react";
+import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function Navbar() {
   const [toggleButton, setToggleButton] = useState(false);
   const [screenBig, setScreenBig] = useState(window.innerWidth >= 1024);
+
+  const navigate = useNavigate();
+
+  const handleSignUp = () =>{
+    navigate('/signUp')
+  }
 
   function handleNavBar() {
     setToggleButton(!toggleButton);
@@ -70,14 +77,14 @@ function Navbar() {
           </nav>
           {/* Sign Up button */}
           {screenBig && (
-            <button className="btn btn-primary w- h40 mr-2 hover:scale-105 transition-all duration-500 uppercase">
+            <button className="btn btn-primary w- h40 mr-2 hover:scale-105 transition-all duration-500 uppercase" >
               Login
               <RiLoginCircleFill className="ml-2" />
             </button>
           )
           }
           {screenBig && (
-            <button className="btn btn-primary hover:scale-105 transition-all duration-500 uppercase">
+            <button className="btn btn-primary hover:scale-105 transition-all duration-500 uppercase" onClick={handleSignUp}>
               Sign Up
               <RiUserAddFill className="ml-2" />
             </button>
@@ -96,7 +103,7 @@ function Navbar() {
         {" "}
         <div className="flex flex-row justify-end p-4">
           <RiCloseCircleFill
-            className="size-10 hover:text-accent transition-all duration-300"
+            className="icon"
             onClick={handleNavBar}
           />
         </div>
@@ -122,12 +129,16 @@ function Navbar() {
               <a href="#" onClick={handleNavBar}>
                 Contact
               </a>
-            </li>
+            </li> 
             <li className="mt-12">
-              <a href="" className="text-3xl">
+              <a className="text-3xl">Log in</a>
+            </li>
+            <li className="">
+              <a className="text-3xl" onClick={handleSignUp}>
                 Sign Up
               </a>
             </li>
+           
           </ul>
         </div>
       </div>
