@@ -3,10 +3,10 @@ import { RiArrowRightLine } from "@remixicon/react";
 function AboutUs() {
   return (
     <>
-      <section className="about my-[80px] xl:mt-[200px] relative z-20">
+      <section className="about mt-[400px] xl:mt-[400px] relative z-20">
         <div className="max-w-[1466px] mb-8 mx-4 xl:mx-auto px-6 xl:px-0 h-[368] items-center">
           {/**Container */}
-          <div className="container mx-auto mb-[400px] xl:px-0">
+          <div className="container mx-auto  xl:px-0">
             <h2 className="h2 text-left mb-8 text-secondary">
               The Best of Both Worlds
             </h2>

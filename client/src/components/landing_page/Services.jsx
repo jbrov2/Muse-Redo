@@ -3,7 +3,7 @@ import { RiAlbumFill, RiSoundcloudFill, RiSpotifyFill } from "@remixicon/react";
 function Services() {
   return (
     <>
-      <section className="services  relative">
+      <section className="services mt-[400px] relative">
         <div className=" max-w-[1466px] mb-8 mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start">
           <div className="container mx-auto">
             <div className="services_top flex flex-col gap-8  xl:my-[60px]">

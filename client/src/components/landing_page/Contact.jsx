@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <section className="contact my-[80px] xl:mt-[200px]">
+      <section className="contact mt-[400px] xl:mt-[400px]">
         <div className="max-w-[1466px] mb-8 mx-4 xl:mx-auto px-6 xl:px-0 h-[368] items-center">
           <div className="container mx-auto mb-[400px] xl:px-0 ">
             <div className="flex mb-8 flex-col text-left ">
