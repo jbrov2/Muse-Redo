@@ -1,4 +1,8 @@
-import { RiMenu4Fill, RiUserAddFill } from "@remixicon/react";
+import {
+  RiCloseCircleFill,
+  RiMenu4Fill,
+  RiUserAddFill,
+} from "@remixicon/react";
 import { useState, useEffect } from "react";
 
 function Navbar() {
@@ -79,12 +83,20 @@ function Navbar() {
           toggleButton ? "translate-x-0" : "-translate-x-full"
         } lg:hidden`}
       >
+        {" "}
+        <div className="flex flex-row justify-end p-4">
+          <RiCloseCircleFill
+            className="size-10 hover:text-accent transition-all duration-300"
+            onClick={handleNavBar}
+          />
+        </div>
         <div className="container mx-auto flex flex-col items-center justify-center h-full space-y-8 text-white">
           {/* <a href="#" onClick={handleNavBar}>
             <h3 className="h3 hover:scale-125 transition-all duration-500 lowercase">
               Muse
             </h3>
           </a> */}
+
           <ul className="flex flex-col items-center gap-8 uppercase">
             <li className="flex justify-center">
               <a href="#" onClick={handleNavBar}>
