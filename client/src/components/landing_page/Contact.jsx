@@ -46,7 +46,7 @@ function Contact() {
                   placeholder="Enter your comments..."
                 />
                 <input
-                  className="btn bg-accent w-80 flex mt-16 mb-4 hover:cursor-pointer hover:scale-105 transition-all duration-300"
+                  className="btn bg-accent w-80 flex mt-16 mb-4 "
                   type="button"
                   value="Submit"
                 />

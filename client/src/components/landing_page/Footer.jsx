@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer mt-[80px] xl:mt-[400px] relative z-20  py-8">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px] text-center xl:text-left">
+        <div className="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[100px] text-center xl:text-left">
           <div className="footer_item w-full max-w-[400px] mx-auto mb-8 xl:mb-0">
             <a href="#" className="inline-block h-16 mb-4">
               <h2 className="text-3xl font-bold">muse</h2>
@@ -56,7 +56,7 @@ function Footer() {
           </div>
         </div>
        
-      </div><p className="text-center text-lg py-10 xl:border-t mt-8 xl:mt-0">
+      </div><p className="text-center text-lg  xl:border-t pt-8 mt-8 xl:mt-0">
           Copyright &copy; muse 2024. All rights reserved.
         </p>
     </footer> 
