@@ -41,7 +41,7 @@ button{
 }
 
 .btn-primary{
-  @apply bg-secondary hover:bg-primary-hover
+  @apply bg-secondary hover:bg-primary-hover hover:cursor-pointer hover:scale-105 transition-all duration-300
 }
 
 .btn-accent{
@@ -57,4 +57,7 @@ input{
 }
 textarea{
   @apply text-primary py-2 px-4 rounded-2xl
+}
+.icon{
+  @apply text-secondary hover:text-accent hover:scale-110 transition-all duration-300 size-10
 }
