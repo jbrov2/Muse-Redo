@@ -1,5 +1,6 @@
 import {
   RiCloseCircleFill,
+  RiLoginCircleFill,
   RiMenu4Fill,
   RiUserAddFill,
 } from "@remixicon/react";
@@ -73,7 +74,15 @@ function Navbar() {
               Sign Up
               <RiUserAddFill className="ml-2" />
             </button>
-          )}
+          )
+          }
+          {screenBig && (
+            <button className="btn btn-primary hover:scale-105 transition-all duration-500 uppercase">
+              Login
+              <RiLoginCircleFill className="ml-2" />
+            </button>
+          )
+          }
         </div>
       </header>
 
