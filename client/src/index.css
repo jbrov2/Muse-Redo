@@ -47,3 +47,14 @@ button{
 .btn-accent{
   @apply bg-accent hover:bg-secondary
 }
+
+label{
+  @apply text-secondary my-4
+}
+
+input{
+  @apply text-primary py-2 px-4 rounded-2xl
+}
+textarea{
+  @apply text-primary py-2 px-4 rounded-2xl
+}
