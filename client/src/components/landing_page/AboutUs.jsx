@@ -4,20 +4,25 @@ function AboutUs() {
   return (
     <>
       <section className="about my-[80px] xl:mt-[200px] relative z-20">
-        {/**Container */}
-        <div className="container mx-auto mb-[400px] xl:px-0">
-            <h2 className="h2 text-left mb-8 text-secondary">The Best of Both Worlds</h2>
-            <div className="flex flex-col text-center gap-8">
+        <div className="max-w-[1466px] mb-8 mx-4 xl:mx-auto px-6 xl:px-0 h-[368] items-center">
+          {/**Container */}
+          <div className="container mx-auto mb-[400px] xl:px-0">
+            <h2 className="h2 text-left mb-8 text-secondary">
+              The Best of Both Worlds
+            </h2>
+            <div className="flex flex-col gap-8">
               <p className="p text-secondary text-left font-light">
-                  muse aims to give users the freedom to listen to the artist they from the underground to the mainstream. All on one dedicated platform.
+                muse aims to give users the freedom to listen to the artist they
+                from the underground to the mainstream. All on one dedicated
+                platform.
               </p>
               <div className="flex">
-                 <button className="btn btn-primary max-w-[310px]">Click here to learn more <RiArrowRightLine/> </button>
+                <button className="btn btn-primary max-w-[310px]">
+                  Click here to learn more <RiArrowRightLine />{" "}
+                </button>
               </div>
-               
-              
             </div>
-
+          </div>
         </div>
       </section>
     </>

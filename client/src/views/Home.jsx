@@ -2,6 +2,7 @@ import Hero from "../components/landing_page/HeroSection";
 import Navbar from "../components/navBar";
 import Services from "../components/landing_page/Services";
 import AboutUs from "../components/landing_page/AboutUs";
+import Contact from "../components/landing_page/Contact";
 
 function Home() {
   return (
@@ -15,6 +16,8 @@ function Home() {
         <AboutUs />
         {/*Services Section */}
         <Services />
+        {/*Contact Section */}
+        <Contact />
         {/*Temp Div */}
         <div className="h-[3000px]"></div>
       </div>
