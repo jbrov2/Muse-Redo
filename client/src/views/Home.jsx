@@ -3,6 +3,7 @@ import Navbar from "../components/navBar";
 import Services from "../components/landing_page/Services";
 import AboutUs from "../components/landing_page/AboutUs";
 import Contact from "../components/landing_page/Contact";
+import Footer from "../components/landing_page/Footer";
 
 function Home() {
   return (
@@ -18,8 +19,10 @@ function Home() {
         <Services />
         {/*Contact Section */}
         <Contact />
+        {/*Footer*/}
+        <Footer />
         {/*Temp Div */}
-        <div className="h-[3000px]"></div>
+        {/* <div className="h-[3000px]"></div> */}
       </div>
     </>
   );
