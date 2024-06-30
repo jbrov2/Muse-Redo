@@ -7,9 +7,9 @@ function Services() {
         <div className=" max-w-[1466px] mb-8 mx-4 xl:mx-auto rounded-[20px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start">
           <div className="container mx-auto">
             <div className="services_top flex flex-col gap-8  xl:my-[60px]">
-              <h2 className="h2  xl:mb-0 text-left">Muse&apos;s services</h2>
+              <h2 className="h2  xl:mb-0 text-left">muse&apos;s services</h2>
               <p className="p xl:text-left max-w-2xl xl:max-w-none">
-                Muse is offering the ability for users to merge their Spotify
+                muse is offering the ability for users to merge their Spotify
                 and Soundcloud likes, and playlists. Along with a visually
                 appealing UI.
               </p>
@@ -26,7 +26,7 @@ function Services() {
                 <RiAlbumFill className="text-accent size-16 mx-auto" />
                 <h3 className="h3 mb-[10px] font-bold ">Platforms you love</h3>
                 <p className="font-light leading-normal max-w-[300px] ">
-                  Muse&apos;s main goal is to allow all users to access songs
+                  muse&apos;s main goal is to allow all users to access songs
                   that they love from different platforms.
                 </p>
               </div>
