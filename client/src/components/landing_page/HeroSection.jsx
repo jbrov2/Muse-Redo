@@ -1,14 +1,17 @@
 import { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 function Hero() {
   const [spotifyHover, setSpotifyHover] = useState(false);
   const [soundCloudHover, setSoundCloudHover] = useState(false);
   const [museHover, setMuseHover] = useState(false);
-
+  const navigate = useNavigate();
   const museHovering = () => {
     setMuseHover(true);
   };
 
+  const handleSignUp = () => {
+    navigate("signUp");
+  };
   const museNotHovering = () => {
     setMuseHover(false);
   };
@@ -69,7 +72,9 @@ function Hero() {
                 Soundcloud
               </span>
             </p>
-            <button className="btn btn-primary">Join Today</button>
+            <button className="btn btn-primary" onClick={handleSignUp}>
+              Join Today
+            </button>
           </div>
         </div>
       </section>
