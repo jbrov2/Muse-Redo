@@ -13,9 +13,13 @@ function Navbar() {
 
   const navigate = useNavigate();
 
-  const handleSignUp = () =>{
-    navigate('/signUp')
-  }
+  const handleSignUp = () => {
+    navigate("/signUp");
+  };
+
+  const handleLogin = () => {
+    navigate("/login");
+  };
 
   function handleNavBar() {
     setToggleButton(!toggleButton);
@@ -77,20 +81,23 @@ function Navbar() {
           </nav>
           {/* Sign Up button */}
           {screenBig && (
-            <button className="btn btn-primary w- h40 mr-2 hover:scale-105 transition-all duration-500 uppercase" >
+            <button
+              className="btn btn-primary w- h40 mr-2 hover:scale-105 transition-all duration-500 uppercase"
+              onClick={handleLogin}
+            >
               Login
               <RiLoginCircleFill className="ml-2" />
             </button>
-          )
-          }
+          )}
           {screenBig && (
-            <button className="btn btn-primary hover:scale-105 transition-all duration-500 uppercase" onClick={handleSignUp}>
+            <button
+              className="btn btn-primary hover:scale-105 transition-all duration-500 uppercase"
+              onClick={handleSignUp}
+            >
               Sign Up
               <RiUserAddFill className="ml-2" />
             </button>
-          )
-          }
-
+          )}
         </div>
       </header>
 
@@ -102,10 +109,7 @@ function Navbar() {
       >
         {" "}
         <div className="flex flex-row justify-end p-4">
-          <RiCloseCircleFill
-            className="icon"
-            onClick={handleNavBar}
-          />
+          <RiCloseCircleFill className="icon" onClick={handleNavBar} />
         </div>
         <div className="container mx-auto flex flex-col items-center justify-center h-full space-y-8 text-white">
           {/* <a href="#" onClick={handleNavBar}>
@@ -129,16 +133,17 @@ function Navbar() {
               <a href="#" onClick={handleNavBar}>
                 Contact
               </a>
-            </li> 
+            </li>
             <li className="mt-12">
-              <a className="text-3xl">Log in</a>
+              <a className="text-3xl" onClick={handleLogin}>
+                Log in
+              </a>
             </li>
             <li className="">
               <a className="text-3xl" onClick={handleSignUp}>
                 Sign Up
               </a>
             </li>
-           
           </ul>
         </div>
       </div>
