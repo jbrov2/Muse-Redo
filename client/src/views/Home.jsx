@@ -8,7 +8,7 @@ import Footer from "../components/landing_page/Footer";
 function Home() {
   return (
     <>
-      <div className="bg-primary">
+      <div className="bg-primary ">
         {/*NavBar */}
         <Navbar />
         {/**Hero Section */}
