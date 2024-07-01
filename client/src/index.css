@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 body{
-  @apply font-secondary text-[22px] text-secondary
+  @apply font-secondary text-[22px] text-secondary h-full m-0
+  
+}
+
+html, body{
+  @apply h-full m-0
 }
 
 a{
@@ -65,4 +70,8 @@ textarea{
 }
 .icon{
   @apply text-secondary hover:text-accent hover:scale-110 transition-all duration-300 size-10
+}
+
+.bg-primary{
+  @apply h-full
 }
