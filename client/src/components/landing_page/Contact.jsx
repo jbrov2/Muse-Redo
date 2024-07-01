@@ -17,7 +17,7 @@ function Contact() {
               <form className="flex flex-col " action="">
                 <label htmlFor="name">First Name</label>
                 <input
-                  className="placeholder:italic placeholder:text-accent w-80"
+                  className="placeholder:italic placeholder:text-accent "
                   type="text"
                   id="name"
                   name="name"
@@ -46,7 +46,7 @@ function Contact() {
                   placeholder="Enter your comments..."
                 />
                 <input
-                  className="btn bg-accent w-80 flex mt-16 mb-4 "
+                  className="btn bg-accent flex mt-16 mb-4 "
                   type="button"
                   value="Submit"
                 />

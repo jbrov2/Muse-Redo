@@ -51,7 +51,7 @@ function Navbar() {
           toggleButton ? "transition-opacity duration-300 opacity-0" : ""
         }`}
       > */}
-      <header className="sticky top-0 py-[40px] z-40 border-b border-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <header className="sticky top-0 py-[40px] w-full z-40 border-b border-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-30">
         <div className="container flex justify-between items-center h-full mx-auto">
           <a href="#" className="flex items-center">
             <h3 className="h3 hover:scale-125 transition-all duration-500 lowercase">

@@ -17,8 +17,8 @@ function AboutUs() {
                 platform.
               </p>
               <div className="flex">
-                <button className="btn btn-primary max-w-[310px]">
-                  Click here to learn more <RiArrowRightLine />{" "}
+                <button className="btn btn-primary ">
+                  Learn more <RiArrowRightLine />{" "}
                 </button>
               </div>
             </div>
