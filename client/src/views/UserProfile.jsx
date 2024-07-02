@@ -1,14 +1,13 @@
-import Profile from "../components/Profile/profile";
+import Account from "../components/Profile/Account";
 
-function UserProfile() {
+function UserAccount() {
   return (
     <>
       <div className="bg-primary">
-        <Profile />
-        <div className="h-[3000px]"></div>
+        <Account />
       </div>
     </>
   );
 }
 
-export default UserProfile;
+export default UserAccount;
