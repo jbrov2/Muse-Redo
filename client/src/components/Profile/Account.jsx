@@ -19,7 +19,7 @@ function Account() {
               <div className="prof_item bg-gray-700 p-[30px] mb-4 rounded-md">
                 <a href="" className="flex">
                   <RiUserFill className="mr-4" />
-                  <p>Account</p>
+                  <p>Edit Profile</p>
                 </a>
               </div>
               {/*Item */}
