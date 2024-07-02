@@ -199,7 +199,7 @@ function Register() {
         <div className="top-0 flex flex-row justify-end p-4">
           <RiCloseCircleFill className="icon" onClick={handleExit} />
         </div>
-        <div className="max-w-[600px] mb-8 mx-4 md:h-screen pt-[100px] xl:mx-auto px-6 xl:px-0 h-[368] items-center">
+        <div className="max-w-[600px] mb-8 mx-4 h-screen pt-[100px] xl:mx-auto px-6 xl:px-0  items-center">
           <div className="container mx-auto xl:p-0">
             <h2 className="h2 mb-8"> Sign Up</h2>
             <div className="form outline rounded-md p-4">

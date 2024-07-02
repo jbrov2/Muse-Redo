@@ -13,7 +13,7 @@ function Login() {
 
   return (
     <>
-      <section className="login mx-auto">
+      <section className="login mx-auto h-screen">
         <div className="top-0 flex flex-row justify-end p-4">
           <RiCloseCircleFill className="icon" onClick={handleExit} />
         </div>
