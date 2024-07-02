@@ -77,5 +77,5 @@ textarea{
 }
 
 .prof_item{
-  @apply hover:scale-110 duration-500 transition-all
+  @apply hover:scale-110 md:hover:scale-105 duration-500 transition-all
 }
