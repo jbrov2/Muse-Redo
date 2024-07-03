@@ -9,7 +9,7 @@ function AccountServices() {
             <h2 className="h2 mb-8">Services</h2>
             <div className="flex items-center flex-col">
               {/*Item 1 */}
-              <div className="flex bg-[#F26F23]">
+              <div className="flex bg-[#F26F23] w-full justify-between">
                 <div className="flex">
                   <RiSoundcloudFill className="mr-4" />
                   <p>SoundCloud</p>
