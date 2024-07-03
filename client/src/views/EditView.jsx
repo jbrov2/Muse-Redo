@@ -7,7 +7,6 @@ function EditView() {
       <section className="bg-primary">
         <AccountNav />
         <EditProfile />
-        <div className="h-[3000px]"></div>
       </section>
     </>
   );
