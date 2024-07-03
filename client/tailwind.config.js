@@ -34,6 +34,8 @@ export default {
         accent: "#62929E",
         "primary-hover": "#62929E",
         "accent-hover": "#62929E",
+        "soundcloud": "#F26F23",
+        "spotify": "#1DB954"
       },
     },
   },
