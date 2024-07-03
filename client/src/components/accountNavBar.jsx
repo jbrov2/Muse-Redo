@@ -77,8 +77,9 @@ function AccountNav() {
                   >
                     Account
                   </a>
+                  {/*Go back and change it so the user actually signs out rather than just redirecting them.*/}
                   <a
-                    href="#"
+                    href="/"
                     className="block px-4 py-2 text-gray-700 hover:text-accent"
                   >
                     Logout
