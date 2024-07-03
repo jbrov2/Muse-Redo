@@ -76,6 +76,8 @@ textarea{
   @apply h-full
 }
 
+
+
 .prof_item{
   @apply hover:scale-110 md:hover:scale-105 duration-500 transition-all
 }
