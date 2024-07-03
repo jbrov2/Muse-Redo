@@ -28,7 +28,7 @@ function Account() {
 
   return (
     <>
-      <section className="prof py-[200px] xl:pt-[200px] h-screen">
+      <section className="prof py-[200px] xl:pt-[200px] xl:h-screen ">
         <div className="max-w-[1466px] mx-4 xl:mx-auto px-6 xl:px-0 h-[366] items-center">
           <div className="container mx-auto">
             <div className="flex flex-col">
