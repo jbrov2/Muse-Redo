@@ -21,8 +21,8 @@ function AccountNav() {
     setDropDown(!dropDown);
   };
 
-  const handleClickOutside = (event) => {
-    if (dropDownRef.current && !dropDownRef.current.contains(event.target)) {
+  const handleClickOutside = (e) => {
+    if (dropDownRef.current && !dropDownRef.current.contains(e.target)) {
       setDropDown(false);
     }
   };
@@ -38,7 +38,7 @@ function AccountNav() {
     <>
       <header className="top-0 py-[40px] w-full z-40 border-b border-gray-200 backdrop-filter backdrop:-blur-lg bg-opacity-30">
         <div className="container flex justify-between items-center h-full mx-auto ">
-          <a href="#" className="flex items-center">
+          <a href="/account" className="flex items-center">
             <h3 className="h3 hover:scale-125 transition-all duration-500 lowercase">
               muse
             </h3>
@@ -102,22 +102,22 @@ function AccountNav() {
         <div className="container mx-auto flex flex-col items-center justify-center h-full space-y-8 text-white">
           <ul className="flex flex-col items-center gap-8 uppercase">
             <li className="flex justify-center">
-              <a href="#" onClick={handleNavBar}>
+              <a href="/account/profile" onClick={handleNavBar}>
                 Edit Profile
               </a>
             </li>
             <li className="flex justify-center">
-              <a href="#" onClick={handleNavBar}>
+              <a href="/account/services" onClick={handleNavBar}>
                 Services
               </a>
             </li>
             <li className="flex justify-center">
-              <a href="#" onClick={handleNavBar}>
+              <a href="/account/change-password" onClick={handleNavBar}>
                 Change Password
               </a>
             </li>
             <li className="flex justify-center">
-              <a href="#" onClick={handleNavBar}>
+              <a href="/account/delete-account" onClick={handleNavBar}>
                 Delete Account
               </a>
             </li>
