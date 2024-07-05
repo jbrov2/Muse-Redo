@@ -1,6 +1,12 @@
 import { RiSoundcloudFill, RiSpotifyFill } from "@remixicon/react";
+import { useNavigate } from "react-router-dom";
 
 function AccountServices() {
+  const navigate = useNavigate();
+  // const handleSpotify = () => {
+  //   navigate("http://localhost:5000/auth/login");
+  // };
+
   return (
     <>
       {/*Dont forget to connect backend to check if they are connected, the button changes on the connection */}
@@ -18,7 +24,7 @@ function AccountServices() {
                   <p>SoundCloud</p>
                 </div>
                 <button className="btn btn-primary hover:bg-soundcloud">
-                  Connected
+                  Login
                 </button>
               </div>
               {/*Item 2 */}
@@ -28,7 +34,7 @@ function AccountServices() {
                   <p>SoundCloud</p>
                 </div>
                 <button className="btn btn-primary hover:bg-spotify">
-                  Connected
+                  Login
                 </button>
               </div>
             </div>
