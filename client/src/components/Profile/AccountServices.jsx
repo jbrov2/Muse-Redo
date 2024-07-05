@@ -1,12 +1,24 @@
 import { RiSoundcloudFill, RiSpotifyFill } from "@remixicon/react";
-import { useNavigate } from "react-router-dom";
 
 function AccountServices() {
-  const navigate = useNavigate();
-  // const handleSpotify = () => {
-  //   navigate("http://localhost:5000/auth/login");
-  // };
-
+  const handleSpotify = async () => {
+    try {
+      const response = await fetch("http://localhost:5000/auth/login", {
+        method: "GET",
+      });
+      if (response.ok) {
+        console.log("Redirect to Spotify Authorization...");
+        window.location.href = await response.text();
+      } else {
+        console.error(
+          "Failed to initiate Spotify Authorization: ",
+          response.statusText
+        );
+      }
+    } catch (error) {
+      console.error("Error occurred during the process:", error);
+    }
+  };
   return (
     <>
       {/*Dont forget to connect backend to check if they are connected, the button changes on the connection */}
@@ -33,7 +45,10 @@ function AccountServices() {
                   <RiSpotifyFill className="mr-4 text-spotify" />
                   <p>SoundCloud</p>
                 </div>
-                <button className="btn btn-primary hover:bg-spotify">
+                <button
+                  className="btn btn-primary hover:bg-spotify"
+                  onClick={handleSpotify}
+                >
                   Login
                 </button>
               </div>

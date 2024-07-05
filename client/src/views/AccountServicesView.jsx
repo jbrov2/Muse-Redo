@@ -4,7 +4,7 @@ import AccountNav from "../components/accountNavBar";
 function AccountServicesView() {
   return (
     <>
-      <div className="bg-primary">
+      <div className="bg-primary ">
         <AccountNav />
         <AccountServices />
       </div>
