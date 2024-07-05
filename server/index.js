@@ -16,9 +16,6 @@ app.use(cors({ origin: "http://localhost:5173" }));
 
 //Grabbing PORT
 const PORT = process.env.PORT;
-const spotify_id = process.env.SPOTIFY_ID;
-const spotify_secret = process.env.SPOTIFY_SECRET;
-const redirect = process.env.REDIRECT_URI;
 
 //Routes
 

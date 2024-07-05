@@ -43,7 +43,7 @@ function AccountServices() {
               <div className="flex  xl:flex-row flex-col gap-8 outline outline-spotify items-center mb-8 p-4 rounded-lg w-full justify-between">
                 <div className="flex">
                   <RiSpotifyFill className="mr-4 text-spotify" />
-                  <p>SoundCloud</p>
+                  <p>Spotify</p>
                 </div>
                 <button
                   className="btn btn-primary hover:bg-spotify"
