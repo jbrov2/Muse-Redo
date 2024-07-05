@@ -9,6 +9,8 @@ import AccountServicesView from "./views/AccountServicesView";
 import ChangePassView from "./views/ChangePasswordView";
 import DeleteAccountView from "./views/DeleteAccountView";
 
+import DashView from "./views/DashView";
+
 function App() {
   return (
     <>
@@ -25,6 +27,7 @@ function App() {
             path="/account/delete-account"
             element={<DeleteAccountView />}
           />
+          <Route path="/home" element={<DashView />} />
         </Routes>
       </Router>
     </>

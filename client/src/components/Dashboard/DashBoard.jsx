@@ -1,7 +1,9 @@
 function DashBoard() {
   return (
     <>
-      <section></section>
+      <section>
+        <h1 className="h1">DashBoard</h1>
+      </section>
     </>
   );
 }
