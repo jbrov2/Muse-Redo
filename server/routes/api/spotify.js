@@ -1,6 +1,6 @@
-const express = require('express')
+const express = require("express");
 const router = express.Router();
-const spotifyAuthController = require('../../controllers/spotifyAuthController')
+const spotifyAuthController = require("../../controllers/spotifyAuthController");
 
 // router
 //     .route("/")
@@ -8,8 +8,8 @@ const spotifyAuthController = require('../../controllers/spotifyAuthController')
 //     .get(spotifyAuthController.handleCallBack)
 //     .get(spotifyAuthController.handleReturn)
 
-router.route("/auth/login").get(spotifyAuthController.handleAuth);
-router.route("/auth/callback").get(spotifyAuthController.handleCallBack);
-router.route("/auth/token").get(spotifyAuthController.handleReturn);
+router.route("/login").get(spotifyAuthController.handleAuth);
+router.route("/callback").get(spotifyAuthController.handleCallBack);
+router.route("/token").get(spotifyAuthController.handleReturn);
 
-module.exports = router
+module.exports = router;
